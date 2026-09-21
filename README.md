@@ -1,11 +1,13 @@
 # Praxis Enhancement Proposals
 
-Centralized enhancement proposals for all [Praxis]
-repositories.
+Enhancement proposals for [Praxis] repositories.
 
 [Praxis]: https://github.com/praxis-proxy
 
 ## How New Features Happen
+
+Most of the time features show up on the individual repositories
+to which they belong:
 
 ```
 Issue -> Triage -> Accepted -> Work it
@@ -25,10 +27,8 @@ Issue -> Triage -> Accepted -> Work it
    work on according to its project status and
    milestone.
 
-Most changes need nothing more than this. See
-[docs/process.md](docs/process.md) for triage
-outcomes, when a proposal is required, and the
-optional experimental phase.
+For much larger efforts you may be asked to follow the
+[docs/process.md](docs/process.md) which is more involved.
 
 > **Nothing here is guaranteed.** Acceptance does
 > not guarantee a feature ships, and a feature can
