@@ -3,6 +3,7 @@ issue: https://github.com/praxis-proxy/policy/issues/104
 status: proposed
 repos:
   - praxis-operator
+  - https://github.com/Kuadrant/kuadrant-operator
 authors:
   - maleck13
 graduation_criteria:
@@ -10,7 +11,9 @@ graduation_criteria:
   - PPE parity gaps identified (host matching, auth methods, CEL limitations, Well Known Attributes)
   - Multi-route fan-out analysis shows acceptable resource cost
 stakeholders:
-  - kuadrant-team
+  - kuadrant
+  - praxis-ai
+  - praxis-ppe
 experimental_exempt: true
 experimental_exempt_reason: Proposal involves operator changes and control-plane collaboration; prototyping directly in praxis-operator and kuadrant-operator integration is required before feasibility can be validated.
 ---
